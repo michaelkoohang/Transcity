@@ -3,7 +3,7 @@ CSV filtering/extraction tool for Trevor Hyman's Transcity MID thesis project.
 
 ### Instructions 📝
 1. [Download Python 3](https://www.python.org/downloads/)
-2. Download or clone the project
+2. Download the project and unzip it
 3. Open the project folder and pop all the files you want to work with in the `files` folder. Make sure there are no sub folders in the `files` folder. 
 
 ### How to Filter 🔥
@@ -28,7 +28,7 @@ INPUT_FILE and OUTPUT_FILE are for reading the correct file and naming the new f
 ### How to Export 💯
 Once you have the 4 variables configured, you're ready to export:
 1. Open "Terminal" on your Mac
-2. Type `cd Downloads/Transcity` and hit enter; you are now inside of the folder you just downloaded
+2. Type `cd Downloads/Transcity-master` and hit enter; you are now inside of the folder you just downloaded
 3. Type `python transcity.py` and hit enter; the file is now being processed
 
 When the file is finished processing, it should appear in the `export` folder with the name you assigned to the OUTPUT_FILE variable.
