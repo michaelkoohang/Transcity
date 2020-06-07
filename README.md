@@ -1,5 +1,5 @@
 # Transcity 🚗🚄🚲
-CSV file filtering/extraction tool for Trevor Hyman's Transcity MID thesis project.
+CSV filtering/extraction tool for Trevor Hyman's Transcity MID thesis project.
 
 ### Instructions 📝
 1. [Download Python 3](https://www.python.org/downloads/)
