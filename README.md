@@ -17,13 +17,13 @@ COLUMNS = ["street_address", "city", "postal_code"]
 
 ZIPCODES = ["90036", "90035"]
 ```
-You need to edit these values so that they point to the right files and filter the right data. I left some comments in the code, but here's a description of each variable:
+You need to edit these values so that they point to the right files and filter the right data. Here's a description of each variable:
 - INPUT_FILE    --> the name of the file you want to extract data from
 - OUTPUT_FILE   --> the name of the new file that will be created from the extraction
 - COLUMNS       --> a list of all the columns you want from the input file
 - ZIPCODES      --> a list of all the zipcodes you want to filter the dataset by
 
-INPUT_FILE and OUTPUT_FILE are just for reading the right file and naming the new file that will be generated. COLUMNS and ZIPCODES are what you use to filter the data. Make sure all of these values are __exact__ matches.
+INPUT_FILE and OUTPUT_FILE are for reading the correct file and naming the new file that will be exported. COLUMNS and ZIPCODES are used to filter the data. Make sure all of these values are __exact__ matches.
 
 ### How to Export 💯
 Once you have the 4 variables configured, you're ready to export:
